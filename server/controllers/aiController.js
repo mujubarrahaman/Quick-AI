@@ -4,17 +4,11 @@ import { clerkClient } from "@clerk/express";
 import {v2 as cloudinary} from 'cloudinary';
 import axios from 'axios'
 import FormData from "form-data";
-// import fs from 'fs';
-// // import pdf from 'pdf-parse/lib/pdf-parse.js';
-// // import * as pdf from "pdf-parse";
-
-// // import pdf from 'pdf-parse';
-// import pkg from "pdf-parse";
-// const pdf = pkg.default || pkg;
 import fs from "fs";
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const pdf = require("pdf-parse");
+
 
 
 
